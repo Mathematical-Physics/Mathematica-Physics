@@ -1,10 +1,11 @@
 encoding: utf-8
 
 # SEO相关信息
-title: Xumin Liang Blog
-description: 梁旭民的个人博客
-keywords: Xumin Liang,Blog, Mathematics, Physics
-author: Xumin Liang
+title: 中文数学物理小集合
+description: 一个暂时性的数学物理网站
+keywords: Mathematics, Physics, 数学, 物理
+author: Siyuan Yu, Xumin Liang
+footerText: 'Copyright © 2021 Siyuan Yu'
 footerText: 'Copyright © 2021 Xumin Liang'
 
 # 这些不要动
@@ -24,17 +25,17 @@ baseurl: ''
 comments: false
 # 菜单
 menu:
-  - title: Homepage
+  - title: 首页
     url: /
-  - title: Categories
+  - title: 归类
     url: /pages/categories.html
-  - title: Search
+  - title: 搜索
     url: /pages/search.html
-  - title: Links
+  - title: 友链
     url: /pages/links.html
-  - title: Bulletin Board
+  - title: 留言
     url: /pages/chat.html
-  - title: About me
+  - title: 关于
     url: /pages/about.html
 
 # 点击页面文字冒出特效,不需要请设置为false
@@ -56,7 +57,5 @@ extMath: true
 
 # 友情链接
 links:
-  - title: SmartHypercube
-    url: https://0x01.me
-  - title: Yunze Man
-    url: https://yunzeman.github.io/
+  - title: nlab
+    url: http://nlab-pages.s3.us-east-2.amazonaws.com/nlab/show/HomePage
