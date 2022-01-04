@@ -5,8 +5,7 @@ title: 中文数学物理小集合
 description: 一个暂时性的数学物理网站
 keywords: Mathematics, Physics, 数学, 物理
 author: Siyuan Yu, Xumin Liang
-footerText: 'Copyright © 2021 Siyuan Yu'
-footerText: 'Copyright © 2021 Xumin Liang'
+footerText: 'Copyright © 2021 Siyuan Yu & Xumin Liang'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
