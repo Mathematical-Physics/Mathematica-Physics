@@ -1,3 +1,5 @@
+* [Head](/)
+* [几何量子化](Geometry_Quantization.md)
 # 几何量子化
 * [简介](/geometry-quantization/introduction/Introduction.md)
 ## Hamilton力学
