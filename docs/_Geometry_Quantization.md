@@ -4,7 +4,6 @@
 ### [一个简单的Hamilton系统](/geometry-quantization/hamilton-mechanics/01.md)
 ## 线丛
 ## 预量子化
-$\frac{1}{2}$
 ## 极化
 ### 什么是极化
 ### 纯实极化
