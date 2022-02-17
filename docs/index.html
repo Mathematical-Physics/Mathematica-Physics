@@ -11,7 +11,7 @@
 
 <body>
   <div id="app"></div>
-  <script>
+<script>
   window.$docsify = {
     loadSidebar: true,
     autoHeader: true,
@@ -19,11 +19,20 @@
       noData: {
         '/':'没有结果'
       },
-      placeholder: {
+      placeholder:  {
         '/':'搜索'
       }
     }
-    plugins: [
+  }
+</script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.js"></script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.js"></script>
+  <script>
+    window.$docsify = {
+        plugins: [
           function (hook) {
             hook.doneEach(function () {
               // 每次路由切换时数据全部加载完成后调用，没有参数。
@@ -34,11 +43,8 @@
             })
           }
         ]
-  }
+    }
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.js"></script>
   <script type="text/javascript" charset="utf-8" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
 https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 </body>
